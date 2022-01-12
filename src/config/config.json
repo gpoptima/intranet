@@ -1,0 +1,15 @@
+{
+    "mode": "development",
+    "production": {
+        "api": "url",
+        "logger": false
+    },
+    "development": {
+        "api": "http://localhost:8080/",
+        "logger": true
+    },
+    "test": {
+        "api": "url",
+        "logger": true
+    }
+}
